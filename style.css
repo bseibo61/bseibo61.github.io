@@ -1,0 +1,96 @@
+/** {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2,p {
+  color: #14213D;
+}
+
+h2 {
+  font-size: 4em;
+  text-align: left;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.6em;
+  font-weight: 300;
+  margin: .5em 3em;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: left;
+  padding: 0em 1em 0em 1em;
+  font-weight: lighter;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #90A4AE;
+}
+
+.nav {
+  background-color: rgba(38, 50, 56, .5);
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  color: white;
+}
+
+.cover {
+  width: 100%;
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 400px;
+  background: url("recources/IMG_0698-01.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  font-weight: bolder;
+  font-size: 4em;
+  color: rgb(245,255,250);
+}
+
+.projects-cover {
+  width: 100%;
+  text-align: left;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background: url("recources/IMG_5300.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;;
+  font-weight: bolder;
+  font-size: 4em;
+  color: rgb(245,255,250);
+}
+
+.footer {
+  background-color: #263238;
+  color: white;
+  padding-bottom: .1em;
+  padding-top: .1em;
+  font-size: .7em;
+}
+
+#contact {
+  padding-left: 4em;
+}
