@@ -6,10 +6,11 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Merriweather Sans', sans-serif;
+  background: #ECEFF1;
 }
 
 h2,p {
-  color: #14213D;
+  color: #263238;
 }
 
 h2 {
@@ -41,23 +42,23 @@ a {
 }
 
 a:hover{
-  color: #90A4AE;
+  color: #CFD8DC;
 }
 
 .nav {
-  background-color: rgba(38, 50, 56, .5);
+  background-color: rgba(96, 125, 139, .5);
   text-align: center;
   display: inline-block;
   width: 100%;
   position: fixed;
-  color: white;
+  color: #ECEFF1;
 }
 
 .cover {
   width: 100%;
   text-align: left;
   padding-top: 100px;
-  padding-bottom: 400px;
+  padding-bottom: 200px;
   background: url("IMG_0698-01.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -65,7 +66,7 @@ a:hover{
   background-position: right;
   font-weight: bolder;
   font-size: 4em;
-  color: rgb(245,255,250);
+  color: #ECEFF1;
 }
 
 .projects-cover {
@@ -84,8 +85,8 @@ a:hover{
 }
 
 .footer {
-  background-color: #263238;
-  color: white;
+  background-color: #455A64;
+  color: #ECEFF1;
   padding-bottom: .1em;
   padding-top: .1em;
   font-size: .7em;
