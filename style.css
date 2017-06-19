@@ -18,6 +18,10 @@ h2 {
   text-align: left;
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
 ul {
   padding: 0;
 }
@@ -26,7 +30,6 @@ li {
   display: inline-block;
   font-size: 1.6em;
   font-weight: 300;
-  margin: .5em 3em;
 }
 
 p {
@@ -87,11 +90,16 @@ a:hover{
 .footer {
   background-color: #455A64;
   color: #ECEFF1;
+  text-align: center;
   padding-bottom: .1em;
   padding-top: .1em;
   font-size: .7em;
 }
 
-#contact {
-  padding-left: 4em;
+.nav-list {
+  margin: .5em 3em;
 }
+
+/*#contact {
+  padding-left: 2em;
+}*/
