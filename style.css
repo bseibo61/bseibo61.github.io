@@ -5,12 +5,12 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Merriweather Sans', sans-serif;
-  background: #ECEFF1;
+  font-family: "Roboto", sans-serif;
+  background: white;
 }
 
 h2,p {
-  color: #263238;
+  color: #333;
 }
 
 h2 {
@@ -49,12 +49,16 @@ a:hover{
 }
 
 .nav {
-  background-color: rgba(96, 125, 139, .5);
+  background-color: rgba(51, 51, 51, .5);
   text-align: center;
   display: inline-block;
   width: 100%;
   position: fixed;
-  color: #ECEFF1;
+  color: white;
+}
+
+.selected{
+  font-size: 1.5em;
 }
 
 .cover {
@@ -69,7 +73,28 @@ a:hover{
   background-position: right;
   font-weight: bolder;
   font-size: 4em;
-  color: #ECEFF1;
+  color: white;
+}
+
+.spies-title{
+  font-size: 5em;
+  color: #222;
+  padding: 0;
+}
+
+.spies-title:hover{
+  color: #333;
+}
+
+.beta{
+  margin: 0;
+  font-size: 3em;
+  color: #444;
+}
+
+
+.material-icons{
+  color: white;
 }
 
 .projects-cover {
@@ -87,9 +112,24 @@ a:hover{
   color: rgb(245,255,250);
 }
 
+.spies{
+  color: white;
+  padding: .2em;
+  background-color: #222;
+  text-align: center;
+  font-size: 10em;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-decoration: line-through;
+  text-decoration-color: #222;
+  display: inline-block;
+  width: auto;
+  margin-top: .5em;
+}
+
 .footer {
-  background-color: #455A64;
-  color: #ECEFF1;
+  background-color: #333;
+  color: white;
   text-align: center;
   padding-bottom: .1em;
   padding-top: .1em;
@@ -98,6 +138,10 @@ a:hover{
 
 .nav-list {
   margin: .5em 3em;
+}
+
+.spies-div{
+  text-align: center;
 }
 
 /*#contact {
